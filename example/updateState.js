@@ -8,13 +8,13 @@ var state = {
 		age : 0,
 		firstName : "",
 		lastName : "",
-		headPic : ""
+		headPic : "",
 	},
-	dataList : []
+	dataList : [],
 	form : {
 		phone : "",
-		veriCode : ""
-	}
+		veriCode : "",
+	},
 }
 
 var state1 = updateIn( state, ["userInfo","username"],"updateIn")
@@ -22,14 +22,14 @@ var state1 = updateIn( state, ["userInfo","username"],"updateIn")
 
 
 var dataList = [{
-	productName : "product_name"
-	productCode : "NO123456"
+	productName : "product_name",
+	productCode : "NO123456",
 },{
-	productName : "product_name"
-	productCode : "NO123456"
+	productName : "product_name",
+	productCode : "NO123456",
 },{
-	productName : "product_name"
-	productCode : "NO123456"
+	productName : "product_name",
+	productCode : "NO123456",
 }]
 var state2 = updateIn( state1, ["dataList"], dataList)
 //state2.dataList === dataList
