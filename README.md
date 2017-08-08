@@ -6,7 +6,7 @@ Getting started
 ---------------
 使用npm安装`updateIn`
 ```shell
-npm install updatein
+npm install --save updatein
 ```
 
 #### example
